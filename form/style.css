@@ -1,0 +1,51 @@
+body{
+    background:radial-gradient( rgba(217, 255, 0, 0.623), rgb(0, 255, 213), rgba(157, 30, 200, 0.218));
+    font-family: 'Courier New', Courier, monospace;
+  }
+  #form {
+    width: 330px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: rgb(214, 152, 152);
+    border-radius: 4px;
+    font-size: 12px;
+  }
+  #form h1 {
+    color:rgb(7, 255, 131);
+    text-align:center;
+  }
+  #form button{
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    width: 100%;
+    background-color: aquamarine;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+  }
+  .footer{
+    text-align:center;
+  }
+  .input-control {
+  display: flex;
+  flex-direction: column;
+  }
+  .input-control input {
+  border: 2px solid rgb(136, 255, 0);
+  border-radius: 4px;
+  display: block;
+  font-size: 12px;
+  padding: 10px;
+  }
+  .input-control.success input {
+  border-color: chartreuse;
+  }
+  .input-control.error input {
+    border-color: brown
+  }
+  .input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+  }
+  

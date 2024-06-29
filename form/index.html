@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+
+  <main>
+    <div class="container">
+      <form id="form" action="/">
+  <h1>Форма бронирования</h1>
+        <section class="input-control">
+          <label for="username">Имя</label>
+          <input id="username" name="username" type="text">
+          <div class="error"></div>
+        </section> 
+      <section class="input-control">
+        <label for="phone">Номер</label>
+        <input id="phone" name="username" type="tel" placeholder="+7xxx xxx xx xx">
+        <div class="error"></div>
+    </section>
+  </section>
+<section class="input-control">
+  <label for="datetime">Дата и время</label>
+  <input type="datetime-local" id="datetime" name="datetime">
+  <div class="error"></div>
+</section>
+        <button type="submit"> Забронировать </button>
+      </form>
+    </div>
+  </main>
+  <footer>
+    <p>Авторские права &copy; 2024</p>
+  </footer>
+</body>
+</html>
